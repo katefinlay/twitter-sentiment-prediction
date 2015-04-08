@@ -1,0 +1,6 @@
+Results
+
+Based on the query, #feminism has a sentiment value of 0.00175860119855
+Based on the query, #meninism has a sentiment value of 0.00206240660061
+Based on the query, #obamacare has a sentiment value of 0.00295420879696
+Based on the query, #DOMA has a sentiment value of 0.00174343941844

@@ -3,13 +3,13 @@
     @author Alan Ponte
 '''
 from __future__ import print_function
-from CalculateSentiments import SentinmentCalculator
+from calculateSentiments import SentinmentCalculator
 import sys
 from pprint import pprint
 import tweepy
 import csv
 
-query = '#feminism'
+query = '#gunControl'
 
 def getTweets():
     """Gets tweets using the REST API and returns a dictionary with the keys
