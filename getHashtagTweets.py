@@ -13,11 +13,11 @@ auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
 
 # Open/Create a file to append data
-csvFile = open('results-feminism.csv', 'a')
+csvFile = open('results-hillaryEmail.csv', 'a')
 #Use csv Writer
 csvWriter = csv.writer(csvFile)
 
-query = '#feminism'
+query = '#hillaryEmail'
 max_tweets = 1000
 tweetDict = {}
 
