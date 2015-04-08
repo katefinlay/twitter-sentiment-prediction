@@ -8,8 +8,8 @@ Based on the query, #gunControl has a sentiment value of -0.00348088549132
 Based on the query, #netNeutrality has a sentiment value of -0.000573685222962
 Based on the query, #minimumWage has a sentiment value of 0.00414197368304
 Based on the query, #vaccines has a sentiment value of 0.00262388893618
-#gmo
-#iranDeal
+Based on the query, #gmo has a sentiment value of -0.00589589759632
+Based on the query, #iranDeal has a sentiment value of -0.00277804338212
 #NSA
 #gamerGate
 #keystoneXL

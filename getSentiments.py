@@ -9,7 +9,7 @@ from pprint import pprint
 import tweepy
 import csv
 
-query = '#gmo'
+query = '#iranDeal'
 
 def getTweets():
     """Gets tweets using the REST API and returns a dictionary with the keys
@@ -27,7 +27,7 @@ def getTweets():
     api = tweepy.API(auth)
 
     # Open/Create a file to append data
-    csvFile = open('results-feminism.csv', 'a')
+    csvFile = open('results-iranDeal.csv', 'a')
     #Use csv Writer
     csvWriter = csv.writer(csvFile)
 
@@ -63,7 +63,7 @@ def get_sentiments():
     tweets=[]
     #makes a list of tweets
     myDict = getTweets()
-    for key in myDict.keys(): #TODO: dictionary
+    for key in myDict.keys(): 
         currTweet = myDict[key]
         tweets.append(currTweet)
     sentiments = load_sentiments()
