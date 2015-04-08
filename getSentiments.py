@@ -9,7 +9,7 @@ from pprint import pprint
 import tweepy
 import csv
 
-query = '#gunControl'
+query = '#gmo'
 
 def getTweets():
     """Gets tweets using the REST API and returns a dictionary with the keys
