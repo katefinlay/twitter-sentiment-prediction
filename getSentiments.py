@@ -9,7 +9,7 @@ from pprint import pprint
 import tweepy
 import csv
 
-query = '#iranDeal'
+query = '#ukraine'
 
 def getTweets():
     """Gets tweets using the REST API and returns a dictionary with the keys
@@ -27,7 +27,7 @@ def getTweets():
     api = tweepy.API(auth)
 
     # Open/Create a file to append data
-    csvFile = open('results-iranDeal.csv', 'a')
+    csvFile = open('results-ukraine.csv', 'a')
     #Use csv Writer
     csvWriter = csv.writer(csvFile)
 
